@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:windowBackground"
+    tools:context=".testFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f8f8ff"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:id="@+id/linear1"
+            app:layout_constraintBottom_toTopOf="@+id/rv"
+            >
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/sv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/searchview_background"
+                app:queryHint="Search here"
+                android:theme="@style/SearchAutoCompleteTextView"
+                app:searchIcon="@drawable/ic_baseline_search_24"
+                app:iconifiedByDefault="false"
+                />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:background="@null"
+                android:id="@+id/clik"
+                android:src="@drawable/ic_baseline_keyboard_voice_24"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                tools:listitem="@layout/list_item" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emptyView"
+                android:visibility="gone"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:autoSizeTextType="uniform"
+                android:text="No Match Found "
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

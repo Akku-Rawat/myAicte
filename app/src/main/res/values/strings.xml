@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">myAicte</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aicteabout">All India Council for Technical Education (AICTE) was set up in November 1945 as a national-level apex advisory body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner. And to ensure the same, as stipulated in the National Policy of Education (1986), AICTE was vested with:
+
+• Statutory authority for planning, formulation, and maintenance of norms and standards
+• Quality assurance through accreditation
+• Funding in priority areas, monitoring, and evaluation
+• Maintaining parity of certification  and awards
+• The management of technical education in the country</string>
+    <string name="aictewelcome">All India Council for Technical Education (AICTE) was set up in November 1945 as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner.</string>
+
+    <string name="kode">A M C ENGINEERIG COLLEGE</string>
+    <string name="kategori">Bangalore</string>
+    <string name="isi">Unaided - Private</string>
+
+    <string-array name="entries">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+    </string-array>
+    <string name="title_activity_sign_in">signIn</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_sign_up">signUp</string>
+    <string name="title_activity_testactivity">testactivity</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
+    >
+
+    <item
+        android:id="@+id/contactoption"
+        android:title="Contact Us"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/editoption"
+        android:title="Edit Profile"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/shareoption"
+        android:title="Share"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/developedbyoption"
+        android:title="Developed By"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/exitoption"
+        android:title="Exit"
+        android:icon="@mipmap/exiticon"
+        app:showAsAction="never"
+        />
+
+
+
+
+
+
+</menu>
